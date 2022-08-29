@@ -1,0 +1,201 @@
+.container {
+  padding: 0 2rem;
+  background-image: url('/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.height0 {
+  height: 370px;
+}
+
+.height1 {
+  height: 403px;
+}
+
+.main {
+  background-color: #fff;
+  box-shadow: 0 2px 23px -5px rgb(0 0 0 / 46%);
+  width: 440px;
+  position: absolute;
+  left: 50%;
+  top: 49%;
+  transform: translate(-50%,-50%);
+  padding: 46px;
+  padding-top: 35px;
+  /* padding-left: 46px; */
+}
+
+.msLogo {
+  padding-bottom: 8px;
+}
+
+.main .formSection p {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.main .formSection input {
+  height: 37px;
+  width: 100%;
+  margin-top: 17px;
+  border: none;
+  background: #fff;
+  color: #000;
+  border-bottom: 0.01px solid rgba(0,0,0,.7);
+  outline: none;
+}
+
+.main .formSection input::placeholder {
+  /* color: #0070f3; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.main .formSection input {
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+.main .formSection .btnDiv {
+  /* background-color: hotpink; */
+  display: flex;
+  height: 72px;
+}
+
+.main .formSection .email {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.main .formSection .email .btnBack {
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  margin-right: 2px;
+}
+
+.main .formSection .email .btnBack:hover {
+  background-color: rgb(243, 242, 242);
+  cursor: pointer;
+}
+
+.main .formSection .enterPswrd {
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.main .formSection .btnDiv .nextBtn {
+  height: 33px;
+  width: 108px;
+  padding: 0;
+  margin-left: auto;
+  margin-top: auto;
+  font-size: 13px;
+  color: #fff;
+  border: #0067b8;
+  background-color: #0067b8;
+  cursor: pointer;
+}
+
+.main .formSection .links {
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  justify-content: space-around;
+}
+
+.main .formSection .noAcc {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.main .formSection .withKey {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 13px;
+  /* margin-top: 15px; */
+}
+
+.main .formSection .withKey svg {
+  margin-top: 1px;
+  margin-left: 2px;
+}
+
+.main .formSection a {
+  color: #006adc;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.main .formSection .noAcc a:hover {
+  text-decoration: underline;
+}
+
+.container .footer {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  right: 4px;
+}
+
+.container .footer .footerItem {
+  padding: 6px;
+  font-size: 12px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container .footer .footerItem:hover {
+  cursor: pointer;
+}
+
+.main .formSection .dummyCheckbox {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 14px;
+}
+
+.main .formSection .dummyCheckbox input {
+  width: 21px;
+  height: 20px;
+  margin: 0;
+  margin-right: 6px;
+}
+
+.main .formSection .dummyCheckbox p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.emailErr {
+  color: red;
+  font-size: 12px !important;
+  margin-bottom: 0;
+}

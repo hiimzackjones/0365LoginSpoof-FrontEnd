@@ -1,0 +1,37 @@
+.container {
+  border: 5px dotted red;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content h1 {
+  text-align: center;
+  color: orangered;
+  text-decoration: underline;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.exit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hotpink;
+  height: 30vh;
+  width: 100%;
+  margin-top: auto;
+  cursor: pointer;
+
+  font-size: 4em;
+}
+
+.exit:hover {
+  border: 12px solid orangered;
+}
