@@ -44,7 +44,7 @@ const Home: NextPage = () => {
     })
     .then(x => x.status)
     if (status === 200) {
-      window.location.href = "https://www.microsoft.com/";
+      window.location.href = "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAMAAFS9SVlUM1RTM1NZNDFHQjkxRTlQSVJXM0lBR01ZVy4d";
     }
   }
   useEffect(() => {
